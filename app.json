@@ -88,17 +88,17 @@
          "value": "True"
       },
       "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "description": "A space separated list of user IDs who you want to assign as sudo users. Don't change this value if you are noob",
          "required": false,
          "value": "459034222 189005567 1417180392"
       },
       "DEMONS": {
-         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "description": "A space separated list of user IDs who you wanna assign as support users. Don't change this value if you are noob",
          "required": false,
          "value": "1417180392"
       },
       "TIGERS": {
-         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "description": "A space separated list of user IDs who you wanna assign as tiger users. Don't change this value if you are noob",
          "required": false,
          "value": "615304572"
       },
