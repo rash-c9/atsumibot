@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+[Hi](https://telegra.ph/file/3007e55b21187ef63def6.mp4) {}, my name is {}! 
 I am an Anime themed group management bot. You can find my list of available commands with /help....... maintained by = [Rashh](https://t.me/rash_sudo).
 """
 
@@ -74,7 +74,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/dba3bf16c4c58467500eb.mp4"
+SAITAMA_IMG = " "
 
 DONATE_STRING = """Heya, glad to hear you want to donate! BTW.. this is a forked repo of saitama... So, you should donate to saitama rather than me...
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
