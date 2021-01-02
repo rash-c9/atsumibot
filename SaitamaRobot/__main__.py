@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot. You can find my list of available commands with /help....... maintained by = [Rashh](https://t.me/rash_sudo).
+I am an Anime themed group management bot. You can find my list of available commands with /help....... maintained by = [Aki](https://t.me/bts_army_gurl).
 """
 
 HELP_STRINGS = """
@@ -74,7 +74,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/dba3bf16c4c58467500eb.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/d9911663c488de8e146f0.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate! BTW.. this is a forked repo of saitama... So, you should donate to saitama rather than me...
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -197,14 +197,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Atsumi-chan to your group",
+                            text="☑️ Add Yuki to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🔗 Source 🔗",
-                             url="https://github.com/rash-c9/atsumibot")
+                             url="https://github.com/kriti078/atsumibot")
                      ],
                      [
                          InlineKeyboardButton(
@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/JusttChatting"),
                          InlineKeyboardButton(
                              text="🔗 Base Source 🔗",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
+                             url="https://github.com/rash-c9/atsumibot")
                     ]]))
                   
                     
